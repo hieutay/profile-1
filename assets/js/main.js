@@ -20,7 +20,7 @@ function sendmail(){
          Email.send({
         SecureToken:"8741f74a-f9c8-466b-9174-3c5bce13ba74",
             To: 'leviettrung.vietrux@gmail.com',
-            From: "produckindusties@gmail.com",
+            From: "produckindustries@gmail.com",
             Subject: "New message on contact from "+name,
             Body: Body
          }).then(
