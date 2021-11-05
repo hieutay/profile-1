@@ -18,21 +18,21 @@ function sendmail(){
          //console.log(name, phone, email, message);
 
          Email.send({
-        SecureToken:"fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
-            To: 'optimalweb09@gmail.com',
-            From: "demooptimalweb@gmail.com",
+        SecureToken:"8741f74a-f9c8-466b-9174-3c5bce13ba74",
+            To: 'leviettrung.vietrux@gmail.com',
+            From: "produckindusties@gmail.com",
             Subject: "New message on contact from "+name,
             Body: Body
          }).then(
             message =>{
                //console.log (message);
                if(message=='OK'){
-               alert('Your mail has been send. Thank you for connecting.');
+               alert('Gửi thành công');
               
                }
                else{
                   console.error (message);
-                  alert('There is error at sending message. ')
+                  alert('Đã có lỗi xảy ra')
                   
                }
 
