@@ -3,7 +3,7 @@
 function sendmail(){
     
          var name = $('#Name').val();
-         var email = $('#Sender').val();
+         var email = $('#Email').val();
          var subject = $('#Subject').val();
       var message = $('#Message').val();
 
