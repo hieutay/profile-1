@@ -9,7 +9,7 @@ function sendmail(){
          var message = inputs.elements["Message"].value;
 
          var Body='Name: '+name+'<br>Email: '+email+'<br>Subject: '+subject+'<br>Message: '+message;
-         console.log(name, phone, email, message);
+         console.log(name, email, subject, message);
 
          Email.send({
         SecureToken:"9581c65f-b3c9-4230-9e90-9b214b1103ab",
