@@ -12,7 +12,7 @@ function sendmail(){
          console.log(name, email, subject, message);
 
          Email.send({
-        SecureToken:"9581c65f-b3c9-4230-9e90-9b214b1103ab",
+        SecureToken:"f9936de8-e32c-4dc5-b624-5684489b2e80",
             To: 'leviettrung.vietrux@gmail.com',
             From: "produckindustries@gmail.com",
             Subject: "Tin nhắn mới từ "+name,
