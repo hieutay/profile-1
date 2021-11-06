@@ -22,7 +22,8 @@ function sendmail(){
                //console.log (message);
                if(message=='OK'){
                alert('Gửi thành công');
-              
+               document.getElementById('xyzform').reset();
+
                }
                else{
                   console.error (message);
