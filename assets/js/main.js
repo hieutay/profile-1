@@ -1,11 +1,12 @@
 
 
 function sendmail(){
-    
-         var name = document.getElementById("Name").value;
-         var email = document.getElementById("Email").value;
-         var subject = document.getElementById("Subject").value;
-         var message = document.getElementById("Message").value;  
+        const inputs = document.querySelector('form');
+       
+         var name = inputs.elements["Name"].value;
+         var email = inputs.elements["Email"].value;
+         var subject = inputs.elements["Subject"].value;
+         var message = inputs.elements["Message"].value;
 
          var Body='Name: '+name+'<br>Email: '+email+'<br>Subject: '+subject+'<br>Message: '+message;
          console.log(name, phone, email, message);
