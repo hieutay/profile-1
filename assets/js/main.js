@@ -2,15 +2,13 @@
 
 function sendmail(){
     
-         var name = $('#Name').val();
-         var email = $('#Email').val();
-         var subject = $('#Subject').val();
-      var message = $('#Message').val();
-
-         // var body = $('#body').val();
+         var name = document.getElementById("Name").value;
+         var email = document.getElementById("Email").value;
+         var subject = document.getElementById("Subject").value;
+         var message = document.getElementById("Message").value;  
 
          var Body='Name: '+name+'<br>Email: '+email+'<br>Subject: '+subject+'<br>Message: '+message;
-         //console.log(name, phone, email, message);
+         console.log(name, phone, email, message);
 
          Email.send({
         SecureToken:"9581c65f-b3c9-4230-9e90-9b214b1103ab",
