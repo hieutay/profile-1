@@ -8,14 +8,14 @@ function sendmail(){
          var subject = inputs.elements["Subject"].value;
          var message = inputs.elements["Message"].value;
 
-         var Body='Name: '+name+'<br>Email: '+email+'<br>Subject: '+subject+'<br>Message: '+message;
+         var Body='Tên: '+name+'<br>Email: '+email+'<br>Chủ đề: '+subject+'<br>Nội dung: '+message;
          console.log(name, email, subject, message);
 
          Email.send({
         SecureToken:"9581c65f-b3c9-4230-9e90-9b214b1103ab",
             To: 'leviettrung.vietrux@gmail.com',
             From: "produckindustries@gmail.com",
-            Subject: "New message on contact from "+name,
+            Subject: "Tin nhắn mới từ "+name,
             Body: Body
          }).then(
             message =>{
